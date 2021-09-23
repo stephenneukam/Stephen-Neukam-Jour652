@@ -1,9 +1,15 @@
+/* Styles for resume */
+
+/* Body font, size color */
+
 BODY{
     font-family: 'Open Sans', arial, sans-serif;
     font-size: 1em;
     color:#444;
     font-weight: 400;
 }
+
+/* Name */
 
 h1{
     font-size: 3em;
@@ -12,11 +18,15 @@ h1{
     color: #33485e;
 }
 
+/* Title */
+
 strong{
     color: #33485e;
     font-size: 1.5em;
     text-transform: uppercase;
 }
+
+/* Section headers banners */
 
 h2 {
     font-size: 1.5em;
@@ -25,19 +35,27 @@ h2 {
     color: #fff;
 }
 
+/* Job titles */
+
 h3 {
     font-size: 1.5em;
     font-weight: 600;
 }
 
+/* Job organizations */
+
 h4 {
     font-size: 1.5em;
 }
+
+/* Job dates */
 
 h5 {
     font-size: 1em;
     font-style: italic;
 }
+
+/* Contact info, experience, skills */
 
 ul {
     font-size: 1em;
