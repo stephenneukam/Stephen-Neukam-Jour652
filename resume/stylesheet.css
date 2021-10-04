@@ -108,3 +108,14 @@ BODY{
     margin: 0 auto;
     padding-bottom: 50px;
 }
+
+.top{
+    width: 60%;
+    min-width: 300px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 1em;
+    color:#444;
+    font-weight: 400;
+}
