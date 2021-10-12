@@ -1,0 +1,45 @@
+#content {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.masthead {
+    width: 500px;
+    text-align: center;
+}
+.headline {
+    font-family: Helvetica, sans-serif;
+    font-size: large;
+    text-decoration-line: underline;
+}
+#byline {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}
+.body {
+    font-family: Georgia, sans-serif;
+    font-size: 13px;
+}
+.headlineimage {
+    width: 100%;
+}
+figcaption {
+    font-family: georgia, sans-serif;
+    font-size: 10px;
+}
+.bodyimage {
+    width: 50%;
+}
+#hopegif {
+    width: 75%;
+}
+#pullquote {
+    font: 24px/32px normal helvetica, sans-serif;
+    font-style: italic;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    padding-left: 15px;
+    border-left: 4px solid #ccc;
+}
