@@ -1,0 +1,78 @@
+#container {
+    text-align: center;
+    width: 1100px auto;
+    margin: 0 auto;
+    padding-top: 5em;
+    padding: 3em;
+}
+/** headline formatting **/
+#headline {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+#byline {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+p {
+    text-align: left;
+}
+#body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+#headimage {
+    width: 100%;
+}
+#bodyimage {
+    width: 50%;
+}
+#caption {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 10px;
+}
+#subhead {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: red;
+    text-decoration: underline black;
+}
+#link {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+}
+#pull-quote {
+    font-size: 30px;
+    font-style: italic;
+    width: 50%;
+    color: red;
+    text-decoration: underline black;
+}
+strong {
+    font-size: 24px;
+    font-style: bold;
+}
+hr {
+    width: 75%;
+}
+#graphic {
+    width: 50%;
+}
+#headline-strong {
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 55px;
+    text-decoration: underline black;
+}
+#page-topper {
+    width: 100%;
+}
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-align: left;
+}
+#links {
+    line-height: 3em;
+}
