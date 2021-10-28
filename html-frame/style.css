@@ -1,0 +1,23 @@
+.container {
+    font-family: Helvetica, sans-serif;
+}
+.headline {
+    text-align: center;
+}
+.byline {
+    text-align: center;
+}
+#bodyimage {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%%;
+}
+figcaption {
+    text-align: center;
+}
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
