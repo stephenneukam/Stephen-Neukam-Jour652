@@ -5,6 +5,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     color: #1D2626;
     width: auto;
+    align-items: center;
 }
 .col-4 {
     text-align: center;
