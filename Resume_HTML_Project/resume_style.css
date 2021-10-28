@@ -13,13 +13,16 @@ body{
 #name {
     font-weight: 400;
     padding-top: 20px;
+    text-align: center;
 }
 #title {
     font-weight: 300;
     letter-spacing: .25em;
+    text-align: center;
 }
-.bi {
+#bi {
     color: #1D2626;
+    text-align: right;
 }
 #about {
     font-weight: 400;
@@ -70,4 +73,12 @@ body{
 }
 .nav-item {
     text-align: center;
+}
+.icons {
+    word-spacing: 2em;
+    margin-top: 50px;
+    text-align: center;
+}
+.headshot img {
+    margin-left: 50px;
 }
