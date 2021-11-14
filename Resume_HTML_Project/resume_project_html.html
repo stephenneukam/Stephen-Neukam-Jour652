@@ -14,7 +14,7 @@
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="resume_style.css">
 
     </head>
@@ -28,7 +28,10 @@
                         <a class="nav-link active" href="#aboutme">ABOUT ME</a><hr>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active" href="#experience">EXPERIENCE & SKILLS</a><hr>
+                        <a class="nav-link active" href="#experience">EXPERIENCE</a><hr>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#skills">SKILLS</a><hr>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link active" href="#mywork">MY WORK</a><hr>
@@ -52,7 +55,7 @@
                 </div>
             </div>
             <div id="aboutme" class="row">
-                <div class="col">
+                <div class="col-12">
                     <h1 id="about">ABOUT ME</h1>
                     <hr>
                     <p id="mission">I am a reporter interested in politics, investigations and good storytelling to help shape the communities that I work in. I have experience leading a newsroom of student journalists and working collaboratively to tell the most important stories to our readers. My 2020 dive into abuse allegations at my undergraduate university in New Jersey was recognized natioanlly as the Society for Professional Journalists' top collegiate in-depth reporting series. My goal is to work in a newsroom with like-minded, motivated colleagues to do journalism that makes a difference.</p><hr>
@@ -123,22 +126,35 @@
                     </div>
                     <!-- end experience section-->
                 </div>
-                <div class="col-12">
+                <div class="row">
+                    <div class="col-12">
                     <h1 id="skills">SKILLS</h1><hr>
-                    <ul id="skillslist">
-                        <li><h3>Data analysis</h3><p>Familiar with RStudio, OpenRefine and Tabula to help analyze and organize data for news stories. These skills help inform projects as well as making reporting more effecient and effective.<p></li>
-                        <li><h3>Data visualization</h3><p>Experience with Datawrapper and RStudio to visualize data and make projects more interactive and engaging.</p></li>
-                        <li><h3>Audio productio and editing</h3><p>Proficient in Adobe Audition to create and edit audio projects. Experience with podcast production and writing.</p></li>
-                        <li><h3>Publication design</h3><p>Proficient in Adobe inDesign and intense training with publication design to produce a weekly print publication for three years in college. Familiarity with news and creative layout.</p></li>
-                        <li><h3>DSLR camera and video editing</h3><p>Comfortable with DLSR cameras to shoot footage and Adobe Premiere to edit video projects.</p></li>
-                        <li><h3>HTML and CSS</h3><p>Experience with HTML, CSS and Bootstrap to build web platforms for stories and news projects.</p></li>
-                    </ul>
+                    </div>
+                    <div id="skill" class="col-md-4">
+                        <h4><i class="bi bi-graph-up"></i></h4><h3>Data analysis</h3><p>Familiar with RStudio, OpenRefine and Tabula to help analyze and organize data for news stories. These skills help inform projects as well as making reporting more effecient and effective.<p>
+                    </div>
+                    <div id="skill" class="col-md-4">
+                        <h4><i class="bi bi-easel"></i></h4><h3>Data visualization</h3><p>Experience with Datawrapper and RStudio to visualize data and make projects more interactive and engaging.</p>
+                    </div>
+                    <div id="skill" class="col-md-4">
+                        <h4><i class="bi bi-soundwave"></i></h4><h3>Audio production and editing</h3><p>Proficient in Adobe Audition to create and edit audio projects. Experience with podcast production and writing.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="skill" class="col-md-4">
+                        <h4><i class="bi bi-brush"></i></h4><h3>Publication design</h3><p>Proficient in Adobe inDesign and intense training with publication design to produce a weekly print publication for three years in college. Familiarity with news and creative layout.</p>
+                    </div>
+                    <div id="skill" class="col-md-4">
+                        <h4><i class="bi bi-camera"></i></h4><h3>DSLR camera and video editing</h3><p>Comfortable with DLSR cameras to shoot footage and Adobe Premiere to edit video projects.</p>
+                    </div>
+                    <div id="skill" class="col-md-4">
+                        <h4><i class="bi bi-code-slash"></i></h4><h3>HTML and CSS</h3><p>Experience with HTML, CSS and Bootstrap to build web platforms for stories and news projects.</p>
+                    </div>
                 </div>
                 <hr>
-            </div>
             <div class="row">
                 <div class="col">
-                    <h2 id="mywork">MY WORK</h2>
+                    <h1 id="mywork">MY WORK</h1><hr>
                 </div>
             </div>
             <div class="row">
@@ -176,10 +192,5 @@
                     <p>© Copyright 2021 | Coded and designed by Stephen Neukam</p>
                 </div>
         </div>
-        </div>
-
-
-
-
     </body>
 </html>

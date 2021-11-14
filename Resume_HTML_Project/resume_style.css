@@ -2,7 +2,7 @@ body{
     background-color: #D9D9D9;
 }
 .container {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #1D2626;
     width: auto;
     align-items: center;
@@ -16,6 +16,7 @@ body{
     font-weight: 400;
     padding-top: 20px;
     text-align: center;
+    letter-spacing: .15em;
 }
 #title {
     font-weight: 300;
@@ -32,6 +33,7 @@ body{
 }
 #aboutme {
     padding-top: 10px;
+    letter-spacing: .15em;
 }
 #mission{
     text-align: center;
@@ -51,6 +53,7 @@ body{
 #mywork{
     text-align: center;
     padding-top: 25px;
+    letter-spacing: .15em;
 }
 .card{
     background-color: #D9D9D9;
@@ -337,4 +340,7 @@ body{
     }
 }
 /* End Experience section */
-
+/* Start skill section */
+#skill {
+    text-align: center;
+}
