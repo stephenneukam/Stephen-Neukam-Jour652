@@ -1,0 +1,134 @@
+body {
+    background-color: lightgrey;
+}
+.container {
+    font-family: 'Lato', sans-serif;
+}
+.orange {
+    color: #FF8D35;
+}
+
+/* Lead image and header */
+.hero-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+.hero-image {
+    width:100%;
+}
+.overlay {
+    position: absolute;
+    left: 70%;
+    top: 0%;
+    height: 100%;
+    background: #000;
+    opacity: .7;
+}
+.hero-head {
+    padding-top: 50%;
+    font-size: 50px;
+    margin: 0 auto;
+}
+.hero-sub {
+    font-size: 25px;
+}
+
+/* body */
+.headline {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    font-size: 30px;
+    font-family: 'PT Serif', serif;
+}
+.byline {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 15px;
+}
+.body-text {
+    font-size: 15px;
+}
+.subhead {
+    font-size: 25px;
+    font-weight: bold;
+    color: #FF8D35;
+    font-family: 'PT Serif', serif;
+}
+.pull-quote {
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #FF8D35;
+    text-decoration-thickness: .05em;
+}
+.quote {
+    font-size: 50px;
+    color: #FF8D35;
+}
+.credits {
+    font-style: italic;
+}
+.hero-sub-body {
+    font-size: 25px;
+    padding-top: 50%;
+    margin: 0 auto;
+}
+.hero-credits {
+    font-size: 15px;
+    font-style: italic;
+}
+.accordion-body {
+    background-color: lightgrey;
+    text-align: center;
+}
+.accordion-button {
+    background-color: lightgrey;
+    text-align: center;
+}
+.accordion-header {
+    background-color: lightgrey;
+    text-align: center;
+}
+.accordion-item {
+    background-color: lightgrey;
+    text-align: center;
+}
+.accordion-head {
+    text-align: center;
+    font-size: 30px;
+    color: #FF8D35;
+}
+.accordion-sub {
+    text-align: center;
+    font-size: 20px;
+}
+
+/* hyperlinks */
+a {
+    color: #FF8D35;
+}
+a:hover {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+/* media queries */
+@media(max-width: 900px) {
+    .hero-head {
+        font-size: 20px;
+    }
+    .hero-sub {
+        font-size: 12px;
+    }
+    .hero-sub-body {
+        font-size: 12px;
+    }
+    .hero-credits {
+        font-size: 8px;
+    }
+}
